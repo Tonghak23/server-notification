@@ -1,18 +1,15 @@
 package com.servernotification.app;
 
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/v1")
 public class NotificationController {
 
     @PostMapping("/notification")
-    public String notification(@RequestBody String service, @RequestBody String message) {
+    public String notification(@RequestParam String service, @RequestParam String message) {
 
-        System.out.println("Query" + service);
+        System.out.println("Query " + service +  ":" + message);
         return message;
     }
 }
