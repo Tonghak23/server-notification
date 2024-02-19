@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.servernotification.ServerNotificationApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-02-19T06:22:20" hostname="DESKTOP-E9JT6QS" time="1.359">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.servernotification.ServerNotificationApplicationTests" time="1.359"/>
+  <system-out><![CDATA[13:22:18.394 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.servernotification.ServerNotificationApplicationTests]: ServerNotificationApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+13:22:18.520 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.servernotification.ServerNotificationApplication for test class com.servernotification.ServerNotificationApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.1)
+
+2024-02-19T13:22:19.119+07:00  INFO 22188 --- [server-notification] [    Test worker] c.s.ServerNotificationApplicationTests   : Starting ServerNotificationApplicationTests using Java 17.0.7 with PID 22188 (started by MSI in D:\ELK\server-notification)
+2024-02-19T13:22:19.121+07:00  INFO 22188 --- [server-notification] [    Test worker] c.s.ServerNotificationApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2024-02-19T13:22:20.518+07:00  INFO 22188 --- [server-notification] [    Test worker] c.s.ServerNotificationApplicationTests   : Started ServerNotificationApplicationTests in 1.757 seconds (process running for 3.17)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
